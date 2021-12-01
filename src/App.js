@@ -8,16 +8,21 @@ import { BrowserRouter, Route, Routes} from 'react-router-dom';
 
 function App() {
   return (
-<BrowserRouter>
+    <div>
+            <Menu/>
 
-      <Menu/>
-      {/* <link to="/docs">Docs</link>  */}
-{/* <Route path="/ocs" component={Docs} /> */}
-      <Docs />
-      <Tuto/>
-      <Community/>
+  <BrowserRouter>
+  <Routes>
+        {/* <link to="/docs">Docs</link>  */}
+  <Route path="/Docs" element={<Docs />} />
+  <Route path="/Tuto" element={<Tuto />} />
+  <Route path="/Community" element={<Community />} />
 
-</BrowserRouter>
+       
+  </Routes>
+  </BrowserRouter>
+    </div>
+
   );
 }
 
