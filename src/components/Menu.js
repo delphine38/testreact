@@ -3,7 +3,7 @@ import {Link, NavLink} from 'react-router-dom';
 
 function Menu(){
 return(
-    <div>
+    <div className="header">
 <ul class="nav">
   <li class="nav-item">
     <a class="nav-link active" aria-current="page" a href="/Menu">Menu</a>
@@ -20,7 +20,7 @@ return(
 </ul>
 
 
-<h1 className="text-center">Bonjour et bienvenue sur mon premier essaie de site react test avec Bootstrap</h1>
+<h1 className="text-center">Bonjour et bienvenue sur mon premier essai de site react test avec Bootstrap</h1>
 
     </div>
 )

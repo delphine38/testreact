@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header{
+  background-color: rgb(80, 80, 233);
+}
+.header ul li a{
+  color: white;
+}
